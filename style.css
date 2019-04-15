@@ -1,0 +1,105 @@
+@media screen {
+	*{
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 0.4px;
+
+
+	}
+
+	body{
+	  font-size: 17px;
+	  line-height: 1.4em
+	}
+
+	.linenum {
+		border: 1px solid black;
+		clear: both;
+		line-height: 1.4em;
+
+	}
+
+	#linenum-5 {
+		width: 100%;
+		background-color: pink;
+	}
+
+	.linenumber {
+		margin-right: 1em;
+
+	}
+
+	.comment{
+		width: 40%;
+		font-size: 10pt;
+		line-height: 1.5em;
+	/*	column-count:3;
+	*/
+		color: black;
+		padding: 3px;
+		clear: both;
+
+	/*	display: inline-block;
+	*/
+
+	}
+
+	.comment-text {
+		line-height: 16px;
+	/*	padding-bottom: 1px;
+	*/
+	}
+
+	.leftcolumn {
+		font:black;
+		width: 50%; float: left;
+		display: inline-flex;
+
+	}
+	.rightcolumn {
+		float: right; 
+		width: 50%
+	}
+
+	/* unvisited link */
+	a:link {
+	  color: black;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: black;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: black;
+	}
+
+	/* selected link */
+	a:active {
+	  color: black;
+	}
+
+
+	img {
+		min-width: 30%;
+		max-width: 30%;
+		float: left;
+		border: 1.5px solid black;
+
+	}
+
+	img:hover{
+	max-width: 100%;
+	}
+
+
+	.map {
+		width:190%; 
+		float: left;
+
+	}
+
+}
+
+
